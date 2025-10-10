@@ -1,0 +1,8 @@
+bare
+core18
+core22
+gnome-3-28-1804
+gtk-common-themes
+ngrok
+snapd
+teams-for-linux
