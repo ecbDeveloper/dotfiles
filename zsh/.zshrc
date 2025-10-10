@@ -18,6 +18,7 @@ alias sa='source ~/.zshrc;echo "ZSH aliases sourced."'
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
+
 source <(fzf --zsh)
 

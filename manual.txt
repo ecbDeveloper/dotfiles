@@ -1,0 +1,1 @@
+/lazy folder stay in ~/.local/share/nvim

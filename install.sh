@@ -23,6 +23,7 @@ echo "=== Restaurando configs (dotfiles) ==="
 cp -r zsh/.zshrc ~/
 cp -r wezterm/wezterm.lua ~/.wezterm.lua
 cp -r nvim ~/.config/
+cp -r lazy ~/.local/share/nvim
 
 echo "=== Instalando dotfiles extras do skwp ==="
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh)"

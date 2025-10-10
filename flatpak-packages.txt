@@ -7,5 +7,5 @@ io.github.giantpinkrobots.flatsweep
 io.github.libvibrant.vibrantLinux
 it.mijorus.gearlever
 me.iepure.devtoolbox
+org.deskflow.deskflow
 org.kde.kolourpaint
-rest.insomnia.Insomnia

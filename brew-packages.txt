@@ -17,3 +17,4 @@ tree-sitter
 unibilium
 utf8proc
 zlib
+zoxide
