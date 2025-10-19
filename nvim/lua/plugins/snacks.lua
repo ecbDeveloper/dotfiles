@@ -6,6 +6,7 @@ return {
       ignored = true,
       sources = {
         explorer = {
+          exclude = { ".git" },
           layout = {
             layout = {
               position = "right",

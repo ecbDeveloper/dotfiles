@@ -13,7 +13,7 @@ config.default_prog = { "/usr/bin/zsh", "-l" }
 config.font = wezterm.font("JetBrainsMono Nerd Font")
 config.font_size = 14.0
 
-config.color_scheme = "Tokyo Night"
+config.color_scheme = "Catppuccin Mocha"
 config.default_cursor_style = "SteadyBar"
 
 config.scrollback_lines = 3000
