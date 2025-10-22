@@ -1,0 +1,2 @@
+alias bp='nvim ~/.zshrc'
+alias sa='source ~/.zshrc;echo "ZSH aliases sourced."'
