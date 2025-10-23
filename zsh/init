@@ -11,9 +11,9 @@ if command -v zoxide &> /dev/null; then
 fi
 
 if command -v keychain &> /dev/null; then
-  eval $(keychain --eval --quiet id_rsa)
+  eval $(keychain --eval --quiet id_ed25519_git id_ed25519_vps)
 fi
 
-if comand -v fzf &> /dev/nul; then
+if comand -v fzf &> /dev/null; then
   source <(fzf --zsh)
 fi
