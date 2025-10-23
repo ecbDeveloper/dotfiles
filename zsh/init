@@ -1,7 +1,19 @@
-eval "$(mise activate zsh)"
+if command -v mise &> /dev/null; then
+  eval "$(mise activate zsh)"
+fi
 
-eval "$(starship init zsh)"
+if command -v starship &> /dev/null; then
+  eval "$(starship init zsh)"
+fi
 
-eval "$(zoxide init --cmd cd zsh)"
+if command -v zoxide &> /dev/null; then
+  eval "$(zoxide init --cmd cd zsh)"
+fi
 
-source <(fzf --zsh)
+if command -v keychain &> /dev/null; then
+  eval $(keychain --eval --quiet id_rsa)
+fi
+
+if comand -v fzf &> /dev/nul; then
+  source <(fzf --zsh)
+fi
