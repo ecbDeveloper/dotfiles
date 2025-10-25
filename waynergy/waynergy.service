@@ -1,0 +1,11 @@
+[Unit]
+Description=Waynergy background client
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/waynergy
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
