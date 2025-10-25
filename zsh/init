@@ -14,6 +14,4 @@ if command -v keychain &> /dev/null; then
   eval $(keychain --eval --quiet id_ed25519_git id_ed25519_vps)
 fi
 
-if comand -v fzf &> /dev/null; then
-  source <(fzf --zsh)
-fi
+source <(fzf --zsh)
