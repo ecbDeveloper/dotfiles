@@ -1,3 +1,12 @@
+
+# history
+export HISTFILE="$ZDOTDIR/.zhistory"   
+HISTSIZE=50000
+SAVEHIST=$HISTSIZE
+
+export EDITOR="nvim"
+export VISUAL="nvim"
+
 # sane defaults
 setopt inc_append_history share_history hist_ignore_all_dups
 setopt autocd no_beep interactivecomments
