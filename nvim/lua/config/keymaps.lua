@@ -12,7 +12,7 @@ map("i", "jj", "<Esc>", opts)
 map("i", "jk", "<Esc>", opts)
 
 map({ "n", "v" }, "B", "0", opts)
-map({ "n", "v" }, "E", "$", opts)
+map({ "n", "v", "o" }, "E", "$", opts)
 
 map({ "n", "v", "x" }, "<leader>y", '"+y', opts)
 map({ "n", "v", "x" }, "<leader>yy", '"+yy', opts)
