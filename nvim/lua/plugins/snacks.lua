@@ -3,7 +3,6 @@ return {
   opts = {
     picker = {
       hidden = true,
-      ignored = true,
       sources = {
         explorer = {
           exclude = { ".git" },
