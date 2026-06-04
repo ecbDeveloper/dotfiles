@@ -1,5 +1,4 @@
-golang 1.23.3
-python latest
-nodejs 22.15.0
-rust   latest
-java  lts
+[tools]
+go = "latest"
+node = "22"
+python = "3.12"
