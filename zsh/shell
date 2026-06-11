@@ -1,5 +1,5 @@
 # history
-export HISTFILE="$ZDOTDIR/.zhistory"   
+export HISTFILE="$ZDOTDIR/.zsh_history"   
 HISTSIZE=50000
 SAVEHIST=$HISTSIZE
 
