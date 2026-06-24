@@ -11,7 +11,7 @@ if command -v zoxide &> /dev/null; then
 fi
 
 if command -v keychain &> /dev/null; then
-  eval $(keychain --eval --quiet id_ed25519_git)
+  eval $(keychain --eval --quiet id_ed25519_git id_ed25519_git id_rsa_azure)
 fi
 
 if command -v direnv &> /dev/null; then
