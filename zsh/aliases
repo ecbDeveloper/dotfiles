@@ -1,10 +1,6 @@
 alias bp='nvim ~/.zshrc'
 alias sa='source ~/.zshrc;echo "ZSH aliases sourced."'
 
-# vpn aliases
-alias vpn-on='sudo systemctl start openvpn-client@SP01.service; echo "VPN turned on successfully"'
-alias vpn-off='sudo systemctl stop openvpn-client@SP01.service; echo "VPN turned off successfully"'
-
 # git aliases
 alias gs='git status'
 alias ga='git add'
