@@ -10,10 +10,6 @@ if command -v keychain &> /dev/null; then
   eval $(keychain --eval --quiet id_ed25519_git hostinger)
 fi
 
-if command -v direnv &> /dev/null; then
-  eval "$(direnv hook zsh)"
-fi
-
 source <(fzf --zsh)
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
